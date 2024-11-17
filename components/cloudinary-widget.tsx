@@ -15,6 +15,7 @@ const CloudinaryWidget = () => {
                     setResource(result?.info);  // { public_id, secure_url, etc }
                 }}
                 options={{ sources: ['local', 'camera',] }}
+                // make sure your preset is set to unsigned in your cloudinary settings
                 uploadPreset="hms_preset"
             />
             {
