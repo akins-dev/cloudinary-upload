@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 const CloudinaryWidget = () => {
+    // Make this any array to get multiple uploads
     const [resource, setResource] = useState<any>();
 
     return (
